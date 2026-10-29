@@ -1,0 +1,10 @@
+{
+  "files": {
+    "AEP_hourly_clean.csv": "7682ea773d7aed2893c55793767555c3a2d098d8aa9bcb69e0c4df1b09aa476e",
+    "data_quality.json": "6acdc6826f234df92eb05af86424cc0c2b0058a134659ed0e801bbd8bc84dc6f",
+    "duplicate_timestamps.csv": "a3c4c975a91022bef6a49ae3b0bcf2895c0a22a9c65bbd5ece26659f4358de02",
+    "missing_hours.csv": "15795bed5bca54a4969124968d081d72cab269232ee8df808ff048e18fad7be5"
+  },
+  "raw_sha256": "109d122f7b485555c609eecdec2cd5a03172e0a08acd358d863acc93eb452585",
+  "version": "v1"
+}

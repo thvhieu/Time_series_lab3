@@ -1,0 +1,59 @@
+[
+  {
+    "id": "TV01",
+    "name": "Bạn - leader",
+    "notebook": "notebooks/00_lab3_report.ipynb",
+    "schedule_unit": "day",
+    "first_handoff_date": "2026-10-30",
+    "section_complete_date": "2026-11-01",
+    "work_start_date": "2026-10-30"
+  },
+  {
+    "id": "TV02",
+    "name": "Chưa điền tên",
+    "notebook": "notebooks/01_data_eda.ipynb",
+    "schedule_unit": "day",
+    "first_handoff_date": "2026-10-30",
+    "section_complete_date": "2026-10-30",
+    "work_start_date": "2026-10-30",
+    "focus": "eda_only",
+    "data_preparation_required": false
+  },
+  {
+    "id": "TV03",
+    "name": "Chưa điền tên",
+    "notebook": "notebooks/02_features_split.ipynb",
+    "schedule_unit": "day",
+    "first_handoff_date": "2026-10-30",
+    "section_complete_date": "2026-10-30",
+    "work_start_date": "2026-10-30",
+    "input_data": "prepared_data_v1"
+  },
+  {
+    "id": "TV04",
+    "name": "Chưa điền tên",
+    "notebook": "notebooks/03_xgboost_importance.ipynb",
+    "schedule_unit": "day",
+    "first_handoff_date": "2026-10-31",
+    "section_complete_date": "2026-10-31",
+    "work_start_date": "2026-10-30"
+  },
+  {
+    "id": "TV05",
+    "name": "Chưa điền tên",
+    "notebook": "notebooks/04_baselines_tuning.ipynb",
+    "schedule_unit": "day",
+    "first_handoff_date": "2026-10-31",
+    "section_complete_date": "2026-10-31",
+    "work_start_date": "2026-10-30"
+  },
+  {
+    "id": "TV06",
+    "name": "Chưa điền tên",
+    "notebook": "notebooks/05_evaluation_multistep.ipynb",
+    "schedule_unit": "day",
+    "first_handoff_date": "2026-10-30",
+    "section_complete_date": "2026-11-01",
+    "work_start_date": "2026-10-30"
+  }
+]

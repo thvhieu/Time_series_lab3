@@ -1,0 +1,49 @@
+{
+  "project": "Lab3",
+  "seed": 42,
+  "frequency": "h",
+  "target": "AEP_MW",
+  "dataset_path": "data/raw/AEP_hourly.csv",
+  "train_ratio": 0.8,
+  "test_start": "2015-10-27 05:00:00",
+  "warmup_hours": 168,
+  "default_p": 24,
+  "p_candidates": [
+    6,
+    12,
+    24,
+    48,
+    168
+  ],
+  "rolling_windows": [
+    24,
+    168
+  ],
+  "forecast_horizons": [
+    1,
+    6,
+    24
+  ],
+  "cv_splits": 3,
+  "cv_test_hours": 672,
+  "primary_metric": "RMSE",
+  "secondary_metrics": [
+    "MAE",
+    "MAPE"
+  ],
+  "protocol": "rolling_origin_one_step_observed_history",
+  "multistep_protocol": "fixed_origin_recursive_no_actual_future",
+  "official_due_date": "2026-11-02",
+  "official_due_time": null,
+  "planning_granularity": "day",
+  "collaboration_mode": "asynchronous",
+  "feature_freeze_date": "2026-10-30",
+  "model_config_freeze_date": "2026-10-31",
+  "internal_code_freeze_date": "2026-11-01",
+  "internal_ready_to_submit_date": "2026-11-02",
+  "prepared_dataset_dir": "data/interim",
+  "data_ready_date": "2026-10-29",
+  "data_preparation_owner": "assistant",
+  "data_preparation_status": "ready",
+  "team_work_start_date": "2026-10-30"
+}
