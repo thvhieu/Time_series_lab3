@@ -1,0 +1,11 @@
+Nhóm,Chỉ số,Giá trị
+Mức & phân tán,Mean / std train (MW),"15,696 / 2,590"
+Mức & phân tán,Mean test so với train,-6.2%
+Xu hướng,Độ dốc mean năm đủ (train),-107.3 MW/năm
+Chu kỳ ngày,Giờ thấp / cao nhất,4h / 19h
+Chu kỳ ngày,Biên độ trung bình trong ngày,"4,629 MW"
+Chu kỳ tuần,Cuối tuần so với ngày thường,-9.8%
+Mùa vụ năm,Tháng cao nhất / thấp nhất,1 / 4
+Tự tương quan,ACF lag 1 / 24 / 168,0.975 / 0.870 / 0.768
+Chất lượng,Giờ thiếu / timestamp trùng,27 / 4
+Chất lượng,Điểm nhảy lớn nhất (train),"2008-10-20 14:00:00 (25,695 MW)"
