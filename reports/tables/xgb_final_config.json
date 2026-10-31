@@ -1,0 +1,16 @@
+{
+    "model": "XGBoost",
+    "cv_date": "2026-10-31",
+    "best_params": {
+        "max_depth": 6,
+        "learning_rate": 0.05,
+        "n_estimators": 100
+    },
+    "random_state": 42,
+    "n_splits": 3,
+    "selection_metric": "mean_RMSE",
+    "best_cv_mean_RMSE": 246.999563,
+    "feature_count": 28,
+    "train_samples": 96844,
+    "test_samples": 24257
+}

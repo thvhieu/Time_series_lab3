@@ -1,0 +1,2 @@
+﻿Model,n_test,MAE,RMSE,MAPE,mape_valid_n,max_depth,learning_rate,n_estimators,random_state,fit_runtime_seconds
+XGBoost,24257,170.11258569530187,226.05774603332517,1.1788769521193323,24257,6,0.05,100,42,6.42144070006907
