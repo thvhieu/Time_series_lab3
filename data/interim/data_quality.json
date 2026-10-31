@@ -1,0 +1,33 @@
+{
+  "columns": {
+    "Datetime": "nominal local hour, no timezone",
+    "observed": "True if an original target was observed at this nominal hour",
+    "y": "AEP_MW after duplicate mean; missing values remain blank"
+  },
+  "duplicate_audit_rows": 8,
+  "duplicate_policy": "mean_at_same_nominal_timestamp",
+  "duplicate_timestamp_rows": 4,
+  "end": "2018-08-03 00:00:00",
+  "grid_rows": 121296,
+  "history_policy": "causal_ffill_only_inside_feature_builder",
+  "missing_nominal_hours": 27,
+  "missing_target_policy": "keep_NaN_and_observed_False_do_not_score",
+  "observed_targets": 121269,
+  "prepared_by": "assistant",
+  "prepared_date": "2026-10-29",
+  "raw_rows": 121273,
+  "raw_sha256": "109d122f7b485555c609eecdec2cd5a03172e0a08acd358d863acc93eb452585",
+  "source_url": "https://www.kaggle.com/datasets/robikscube/hourly-energy-consumption?select=AEP_hourly.csv",
+  "split": {
+    "test_grid_rows": 24260,
+    "test_observed_targets": 24257,
+    "test_start": "2015-10-27 05:00:00",
+    "train_grid_rows": 97036,
+    "train_observed_targets": 97012,
+    "train_ratio": 0.8
+  },
+  "start": "2004-10-01 01:00:00",
+  "timezone_policy": "naive_local_nominal_hours_not_UTC",
+  "unit": "MW",
+  "version": "v1"
+}

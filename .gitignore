@@ -1,0 +1,35 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+*.egg-info/
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+models/*
+!models/.gitkeep
+.DS_Store
+Thumbs.db
+
+# Shared Data v1: small reproducible inputs shipped with the project
+!data/interim/AEP_hourly_clean.csv
+!data/interim/data_quality.json
+!data/interim/duplicate_timestamps.csv
+!data/interim/missing_hours.csv
+!data/interim/manifest.json
+
+# Local working artifacts and credentials are not project deliverables
+/work/
+/outputs/
+/_checks/
+/tmp/
+/.codex/
+.venv*/
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.bak

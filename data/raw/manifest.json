@@ -1,0 +1,19 @@
+{
+  "filename": "AEP_hourly.csv",
+  "sha256": "109d122f7b485555c609eecdec2cd5a03172e0a08acd358d863acc93eb452585",
+  "raw_rows": 121273,
+  "columns": [
+    "Datetime",
+    "AEP_MW"
+  ],
+  "source": "https://www.kaggle.com/datasets/robikscube/hourly-energy-consumption?select=AEP_hourly.csv",
+  "download_url": "https://www.kaggle.com/api/v1/datasets/download/robikscube/hourly-energy-consumption/AEP_hourly.csv",
+  "retrieved_on": "2026-10-29",
+  "target_unit": "MW",
+  "start": "2004-10-01 01:00:00",
+  "end": "2018-08-03 00:00:00",
+  "duplicate_timestamp_rows": 4,
+  "missing_nominal_hours": 27,
+  "original_order_sorted": false,
+  "source_pdf_sha256": "ba36e5de206cf82bcb55fa234d23a62872d9496a31915a9310785eb9e7a06e2f"
+}

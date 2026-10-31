@@ -1,0 +1,4 @@
+* text=auto
+*.ipynb text eol=lf
+*.csv -text
+*.pdf binary
