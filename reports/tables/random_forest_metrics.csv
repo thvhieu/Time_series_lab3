@@ -1,2 +1,2 @@
-﻿Model,n_test,MAE,RMSE,MAPE,mape_valid_n,runtime_seconds
-Random Forest,24257,152.0502597048485,207.66122027208854,1.0439889985993696,24257,181.71966079995036
+model,protocol,horizon,p,n_test,MAE,RMSE,MAPE,fit_seconds,seed
+random_forest,rolling_origin_one_step_observed_history,1,24,24257,152.05,207.66,1.04,181.72,42

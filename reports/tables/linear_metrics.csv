@@ -1,2 +1,2 @@
-﻿,n_test,MAE,RMSE,MAPE,mape_valid_n
-Linear Regression,24257,147.48001111996982,203.05505746897163,1.0148279189706737,24257
+model,protocol,horizon,p,n_test,MAE,RMSE,MAPE,fit_seconds,seed
+linear_regression,rolling_origin_one_step_observed_history,1,24,24257,147.48,203.06,1.01,0.14,42

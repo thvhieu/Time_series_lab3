@@ -1,4 +1,4 @@
-﻿,Model,MAE,RMSE,MAPE (%)
-0,Naive,407.67518654409037,525.6443854676048,2.807463556360126
-1,Seasonal_Naive_24,921.0749886630663,1220.8728612462885,6.244333282968935
-2,Seasonal_Naive_168,1432.6933256379602,1906.7640451350892,9.615277428704031
+model,protocol,horizon,p,n_test,MAE,RMSE,MAPE,fit_seconds,seed
+naive_lag1,rolling_origin_one_step_observed_history,1,24,24257,407.68,525.64,2.81,0.0,42
+seasonal_naive_24,rolling_origin_one_step_observed_history,1,24,24257,921.07,1220.87,6.24,0.0,42
+seasonal_naive_168,rolling_origin_one_step_observed_history,1,24,24257,1432.69,1906.76,9.62,0.0,42
