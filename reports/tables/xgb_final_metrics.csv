@@ -1,0 +1,2 @@
+model,protocol,horizon,p,n_test,MAE,RMSE,MAPE,fit_seconds,seed
+xgboost_tuned,rolling_origin_one_step_observed_history,1,24,24257,152.94,205.96,1.06,2.6,42

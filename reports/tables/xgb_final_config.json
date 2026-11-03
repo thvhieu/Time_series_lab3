@@ -1,0 +1,23 @@
+{
+  "model": "xgboost_tuned",
+  "cv_date": "2026-10-31",
+  "protocol": "rolling_origin_one_step_observed_history",
+  "cv_splits": 3,
+  "cv_test_hours": 672,
+  "best_params": {
+    "max_depth": 6,
+    "learning_rate": 0.05,
+    "n_estimators": 200
+  },
+  "random_state": 42,
+  "selection_metric": "mean_RMSE",
+  "best_cv_mean_RMSE": 203.19,
+  "best_cv_std_RMSE": 9.99,
+  "feature_count": 28,
+  "train_samples": 96844,
+  "test_samples": 24257,
+  "holdout_MAE": 152.94,
+  "holdout_RMSE": 205.96,
+  "holdout_MAPE": 1.06,
+  "fit_seconds": 2.6
+}
