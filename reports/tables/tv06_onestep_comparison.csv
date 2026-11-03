@@ -1,0 +1,8 @@
+model,protocol,horizon,p,n_test,MAE,RMSE,MAPE,fit_seconds,seed
+linear_regression,rolling_origin_one_step_observed_history,1,24,24257,147.48,203.06,1.01,0.14,42
+xgboost_tuned,rolling_origin_one_step_observed_history,1,24,24257,152.94,205.96,1.06,2.6,42
+random_forest,rolling_origin_one_step_observed_history,1,24,24257,152.05,207.66,1.04,181.72,42
+xgboost_base,rolling_origin_one_step_observed_history,1,24,24257,185.42,245.13,1.28,5.7,42
+naive_lag1,rolling_origin_one_step_observed_history,1,24,24257,407.68,525.64,2.81,0.0,42
+seasonal_naive_24,rolling_origin_one_step_observed_history,1,24,24257,921.07,1220.87,6.24,0.0,42
+seasonal_naive_168,rolling_origin_one_step_observed_history,1,24,24257,1432.69,1906.76,9.62,0.0,42

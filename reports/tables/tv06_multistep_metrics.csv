@@ -1,0 +1,16 @@
+model,protocol,horizon,p,n_test,MAE,RMSE,MAPE,fit_seconds,seed
+xgboost_tuned,fixed_origin_recursive_no_actual_future,1,24,1007,126.31,162.72,1.02,0.0,42
+xgboost_tuned,fixed_origin_recursive_no_actual_future,6,24,1007,539.65,742.8,3.56,0.0,42
+xgboost_tuned,fixed_origin_recursive_no_actual_future,24,24,1007,758.49,1038.91,5.93,0.0,42
+linear_regression,fixed_origin_recursive_no_actual_future,1,24,1007,110.74,140.09,0.89,0.0,42
+linear_regression,fixed_origin_recursive_no_actual_future,6,24,1007,624.95,825.85,4.17,0.0,42
+linear_regression,fixed_origin_recursive_no_actual_future,24,24,1007,747.11,969.57,5.94,0.0,42
+xgboost_base,fixed_origin_recursive_no_actual_future,1,24,1007,142.52,181.87,1.16,0.0,42
+xgboost_base,fixed_origin_recursive_no_actual_future,6,24,1007,664.99,905.89,4.36,0.0,42
+xgboost_base,fixed_origin_recursive_no_actual_future,24,24,1007,793.32,1029.71,6.3,0.0,42
+seasonal_naive_24,fixed_origin_recursive_no_actual_future,1,24,1007,786.55,1043.17,6.07,0.0,42
+seasonal_naive_24,fixed_origin_recursive_no_actual_future,6,24,1007,1006.92,1337.8,6.65,0.0,42
+seasonal_naive_24,fixed_origin_recursive_no_actual_future,24,24,1007,741.35,991.76,5.77,0.0,42
+naive_persistence,fixed_origin_recursive_no_actual_future,1,24,1007,194.57,234.58,1.51,0.0,42
+naive_persistence,fixed_origin_recursive_no_actual_future,6,24,1007,2747.57,2841.55,18.12,0.0,42
+naive_persistence,fixed_origin_recursive_no_actual_future,24,24,1007,741.35,991.76,5.77,0.0,42
